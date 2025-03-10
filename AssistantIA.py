@@ -6,8 +6,9 @@ from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
+import os
 
-OPENAI_API_KEY = "REDACTED"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 #Partie-01 : Création de l'interface utilisateur
 
