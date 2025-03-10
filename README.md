@@ -2,7 +2,12 @@
 
 ## Description
 
-AssistantIA_01 est un projet Python visant à développer un assistant intelligent capable d'interagir avec l'utilisateur pour répondre à des questions, exécuter des tâches automatisées et fournir diverses informations utiles.
+AssistantIA_01 est un projet Python visant à développer un assistant intelligent capable d'interagir avec l'utilisateur pour répondre à des questions, exécuter des tâches automatisées et fournir diverses informations utiles. Il fonctionne uniquement en utilisant et en lui fournissant des documents pdf. Il ne sera pas capâble de vous répondre si
+aucun document ne lui ai fournit. Si vous posez des questions d'où la réponse n'est pas disponible dans le document il ne pourra pas vous répondre.
+
+Vous aurez besoin de votre propré clé API de OpenAI pour le faire fonctionner.
+
+Je tiens à préciser que ce projet est un projet éducatif que j'ai suivi.
 
 ## Installation
 
